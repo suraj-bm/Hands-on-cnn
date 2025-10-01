@@ -33,6 +33,10 @@ try:
         system_instruction=SYSTEM_PROMPT
     )
     print("Gemini model initialized successfully.")
+    for model in genai.list_models():
+    # You can filter to only show models that support generating content (text/chat)
+     if 'generateContent' in model.supported_generation_methods:
+        print(model.name)
 
 except Exception as e:
     print(f"Error during Gemini initialization: {e}")

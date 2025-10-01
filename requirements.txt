@@ -1,4 +1,6 @@
-conda create -n tf-gpu python=3.10 -y
-conda activate tf-gpu
-pip install tensorflow==2.20
-pip install matplotlib numpy pandas scikit-learn jupyterlab
+# conda create -n tf-gpu python=3.10 -y
+# conda activate tf-gpu
+# pip install tensorflow==2.20
+# pip install matplotlib numpy pandas scikit-learn jupyterlab
+Python version: 3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)]
+TensorFlow version: 2.10.0
